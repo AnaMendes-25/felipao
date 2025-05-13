@@ -1,0 +1,142 @@
+* {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cabeçalho {
+    background-image: url(img/back.png), linear-gradient(rgba(0, 0, 0, 1), #0d2530, rgba(0, 0, 0, 1));
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#logo {
+    width: 248px;
+    height: 214px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.288);
+}
+
+#titulo1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+#butao {
+    padding: 19px 71px;
+    margin: 20px;
+    margin-bottom: 70px;
+    background-color: transparent;
+    border: solid 2px;
+    border-image: linear-gradient(#33A8DB, #0b3f64);
+    border-image-slice: 1;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+
+#butao, #titulo1 {
+    font-weight: 900;
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+#prg1 {
+    font-size: 18px;
+    height: 46px;
+    width: 510px;
+    color: #ffffffea;
+}
+
+#parte1, #parte3, #rodape {
+    padding: 70px 0;
+    background-color: black;
+    border-top: #1572B7 solid 1px;
+    border-bottom: #1572B7 solid 1px;
+    text-align: center;
+}
+
+#titulo2 {
+    font-size: 32px;
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 50px 0 25px 0;
+    font-weight: 477px;
+}
+
+#prg4 {
+    color: white;
+    width: 792px;
+    display: block;
+    margin: 0 auto;
+}
+
+fieldset {
+    width: 450px;
+    margin: 30px auto;
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    padding: 16px 50px;
+    color: white;
+    background-color: #252525;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+span {
+    color: #50a4e0;
+}
+
+#parte2 {
+    background-image: url(img/womanboa.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    filter: brightness(70%);
+}
+
+#muie {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 0 #368baf;
+    padding: 120px 0 120px 200px;
+}
+
+#evo {
+    background: linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 700;
+    font-size: 32px;
+    width: 746px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 0 50px 0;
+}
+
+#prg2, #prg3 {
+    color: white;
+    width: 792px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 1), #0d2530);
+    margin: 0;
+}
+
+a {
+    text-decoration: underline rgb(0, 132, 255);
+}
